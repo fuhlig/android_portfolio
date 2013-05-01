@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Portfolio</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- ACTIVITY TITLES  -->
+    <string name="title_hello_world">Hello World</string>
+    <string name="title_contactform">Contact Form</string>
+    <string name="title_contactform_result">New Contact</string>
+    <string name="title_lifecycle">Life Cycle</string>
+    <string name="title_second_lifecycle">Second Life Cycle</string>
+    <string name="title_fragment">Fragment</string>
+    <string name="title_detail_fragment">DetailFragment</string>
+    <string name="title_shared_pref">Shared Preferences</string>
+    
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="lifecycle_message">LifeCycle</string>
+    
+
+    <string-array name="assignments">
+        <item>Hello World</item>
+        <item>User Interface</item>
+        <item>Activity Lifecycle</item>
+        <item>Fragments</item>
+        <item>Data Storage</item>
+        <item>Intents</item>
+    </string-array>
+    <string-array name="contact_phone">
+        <item>private</item>
+        <item>mobile</item>
+        <item>business</item>
+    </string-array>
+    <string-array name="contact_email">
+        <item>private</item>
+        <item>mobile</item>
+        <item>business</item>
+    </string-array>
+    <string-array name="contact_address">
+        <item>home</item>
+        <item>work</item>
+    </string-array>
+
+    <string name="contact_hint_name">Firstname Lastname</string>
+    <string name="contact_txt_name">Name</string>
+    <string name="contact_seperator_contact">Contact Data</string>
+    <string name="contact_hint_phone">Phone Number</string>
+    <string name="contact_hint_email">E-Mail</string>
+    <string name="contact_hint_address">Address</string>
+    <string name="contact_hint_address_street">Street</string>
+    <string name="contact_hint_address_number">Number</string>
+    <string name="contact_seperator_address">Address</string>
+    <string name="contact_hint_address_city">City</string>
+    <string name="contact_hint_address_zip">ZIP</string>
+    <string name="contact_btn_add">Add Contact</string>
+    
+    <!-- ERROR / HINT MESSAGES -->
+    <string name="error_input_required">this field is required</string>
+    
+
+</resources>

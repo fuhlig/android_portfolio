@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.hsb.portfolio"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.hsb.portfolio.Overview"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="de.hsb.portfolio.HelloWorld" 
+            android:label="@string/title_hello_world" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.ContactForm"
+            android:label="@string/title_contactform" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.LifeCycleActivity"
+            android:label="@string/title_lifecycle" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.SecondLifeCycle"
+            android:label="@string/title_second_lifecycle" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.fragments.ArticleFragment"
+            android:label="@string/title_fragment" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.ArticleFragment"
+            android:label="@string/title_fragment" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.ContactFormResult"
+            android:label="@string/title_contactform_result" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.fragments.DetailFragment"
+            android:label="@string/title_detail_fragment" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.SharedPrefActivity"
+            android:label="@string/title_shared_pref" >
+        </activity>
+    </application>
+
+</manifest>
