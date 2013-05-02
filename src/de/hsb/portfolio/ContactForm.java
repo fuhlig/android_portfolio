@@ -35,7 +35,7 @@ public class ContactForm extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_contactform);
+		setContentView(R.layout.contactform);
 
 		mInput_name = (EditText) findViewById(R.id.txt_name);
 		mInput_phone = (EditText) findViewById(R.id.txt_phone);

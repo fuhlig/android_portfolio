@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="@dimen/activity_padding">
+
+    <!-- ROOT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <!-- NAME -->
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	
+	        <EditText
+	            android:id="@+id/txt_name"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:ems="10"
+	            android:hint="@string/contact_hint_name"
+	            android:inputType="textPersonName" >
+	            
+	            <requestFocus />
+	        </EditText>
+	    </LinearLayout>
+	    
+	    <!-- SEPERATOR -->
+
+        <TextView
+            android:id="@+id/txt_seperator_contact"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/contact_seperator_contact" >
+
+        </TextView>
+        
+        <!-- PHONE -->
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+	
+	        <EditText
+	            android:id="@+id/txt_phone"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:ems="10"
+	            android:hint="@string/contact_hint_phone"
+	            android:inputType="phone" >
+	        </EditText>
+	        <Spinner 
+	            android:id="@+id/spinnerPhone"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1">
+	        </Spinner>
+	    </LinearLayout>
+        	    
+        <!-- EMAIL -->
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+	        	
+	        <EditText
+	            android:id="@+id/txt_email"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:ems="10"
+	            android:hint="@string/contact_hint_email"
+	            android:inputType="textEmailAddress" >
+	        </EditText>
+	        <Spinner 
+	            android:id="@+id/spinnerEmail"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1">
+	        </Spinner>
+	    </LinearLayout>
+        	
+  	    
+  	    <!-- SEPERATOR -->
+        <TextView
+	        android:id="@+id/txt_seperator_address"
+	        style="?android:attr/listSeparatorTextViewStyle"
+	        android:layout_marginBottom="8dp"
+            android:layout_marginTop="24dp"
+	        android:text="@string/contact_seperator_address" >
+        </TextView>
+        
+        <!-- ADDRESS -->
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+	
+	        <EditText
+	            android:id="@+id/txt_address_street"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:ems="10"
+	            android:hint="@string/contact_hint_address_street"
+	            android:inputType="textPostalAddress" >
+	        </EditText>
+	        <EditText
+	            android:id="@+id/txt_address_number"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:ems="10"
+	            android:hint="@string/contact_hint_address_number"
+	            android:inputType="number" >
+	        </EditText>
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+	
+	        <EditText
+	            android:id="@+id/txt_address_city"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:ems="10"
+	            android:hint="@string/contact_hint_address_city"
+	            android:inputType="textPostalAddress" >
+	        </EditText>
+	        <EditText
+	            android:id="@+id/txt_address_zip"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:ems="10"
+	            android:hint="@string/contact_hint_address_zip"
+	            android:inputType="number" >
+	        </EditText>
+	    </LinearLayout>
+
+	    <Button
+	        android:id="@+id/btn_addContact"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/contact_btn_add"
+	        android:onClick="addContact" >
+	    </Button>
+        
+    </LinearLayout>
+
+
+</ScrollView>

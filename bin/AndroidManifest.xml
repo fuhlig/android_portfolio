@@ -22,8 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
-            android:name="de.hsb.portfolio.HelloWorld" 
+        <activity
+            android:name="de.hsb.portfolio.HelloWorld"
             android:label="@string/title_hello_world" >
         </activity>
         <activity
@@ -57,6 +57,10 @@
         <activity
             android:name="de.hsb.portfolio.SharedPrefActivity"
             android:label="@string/title_shared_pref" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.PreferenceActivity"
+            android:label="@string/title_activity_preference" >
         </activity>
     </application>
 

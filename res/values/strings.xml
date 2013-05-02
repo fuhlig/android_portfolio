@@ -4,7 +4,7 @@
     <string name="app_name">Portfolio</string>
     <string name="action_settings">Settings</string>
 
-    <!-- ACTIVITY TITLES  -->
+    <!-- ACTIVITY TITLES -->
     <string name="title_hello_world">Hello World</string>
     <string name="title_contactform">Contact Form</string>
     <string name="title_contactform_result">New Contact</string>
@@ -13,11 +13,13 @@
     <string name="title_fragment">Fragment</string>
     <string name="title_detail_fragment">DetailFragment</string>
     <string name="title_shared_pref">Shared Preferences</string>
-    
-    
     <string name="hello_world">Hello world!</string>
     <string name="lifecycle_message">LifeCycle</string>
-    
+
+    <!-- SETTINGS -->
+    <string name="settings_username"></string>
+    <string name="settings_email"></string>
+    <string name="settings_job"></string>
 
     <string-array name="assignments">
         <item>Hello World</item>
@@ -42,21 +44,22 @@
         <item>work</item>
     </string-array>
 
-    <string name="contact_hint_name">Firstname Lastname</string>
+    <!-- CONTACT DATA -->
     <string name="contact_txt_name">Name</string>
     <string name="contact_seperator_contact">Contact Data</string>
+    <string name="contact_seperator_address">Address</string>
+    <string name="contact_btn_add">Add Contact</string>
+
+    <!-- ERROR / HINT MESSAGES -->
+    <string name="error_input_required">this field is required</string>
+    <string name="contact_hint_name">Firstname Lastname</string>
     <string name="contact_hint_phone">Phone Number</string>
     <string name="contact_hint_email">E-Mail</string>
     <string name="contact_hint_address">Address</string>
     <string name="contact_hint_address_street">Street</string>
     <string name="contact_hint_address_number">Number</string>
-    <string name="contact_seperator_address">Address</string>
     <string name="contact_hint_address_city">City</string>
     <string name="contact_hint_address_zip">ZIP</string>
-    <string name="contact_btn_add">Add Contact</string>
-    
-    <!-- ERROR / HINT MESSAGES -->
-    <string name="error_input_required">this field is required</string>
-    
+    <string name="title_activity_preference">Preference</string>
 
 </resources>

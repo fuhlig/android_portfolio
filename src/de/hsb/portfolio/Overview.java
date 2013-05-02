@@ -24,16 +24,28 @@ public class Overview extends ListActivity {
 		
 		switch (position) {
 		case 0:
+			// Hello World
 			startActivity(new Intent(this, HelloWorld.class));
 			break;
 		case 1:
+			// UI
 			startActivity(new Intent(this, ContactForm.class));
 			break;
 		case 2:
+			// Activity Lifecycle
 			startActivity(new Intent(this, LifeCycleActivity.class));
 			break;
+		case 3:
+			// TODO
+			// Fragments Lifecycle
+			startActivity(new Intent(this, HelloWorld.class));
 		case 4:
+			// Shared Preferences
 			startActivity(new Intent(this, SharedPrefActivity.class));
+			break;
+		case 5:
+			// Intents
+			startActivity(new Intent(this, ContactForm.class));
 			break;
 			
 		default:
