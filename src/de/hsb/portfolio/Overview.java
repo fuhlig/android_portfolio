@@ -41,7 +41,7 @@ public class Overview extends ListActivity {
 			startActivity(new Intent(this, HelloWorld.class));
 		case 4:
 			// Shared Preferences
-			startActivity(new Intent(this, SharedPrefActivity.class));
+			startActivity(new Intent(this, Settings.class));
 			break;
 		case 5:
 			// Intents

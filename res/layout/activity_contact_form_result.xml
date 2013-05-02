@@ -11,33 +11,69 @@
     tools:context=".ContactFormResult" >
 
     <TextView
-        android:id="@+id/detailsText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/label_name"
+        style="?android:attr/listSeparatorTextViewStyle"
         android:text="@string/contact_hint_name" />
-
     <TextView
         android:id="@+id/txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/contact_hint_name" />
+
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/label_phone"
+        style="?android:attr/listSeparatorTextViewStyle"
         android:text="@string/contact_hint_phone" />
-
     <TextView
         android:id="@+id/txt_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
-
+        android:text="@string/contact_hint_phone" />
     <TextView
         android:id="@+id/txt_phone_option"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="option" />
+
+    <TextView
+        android:id="@+id/label_email"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:text="@string/contact_hint_email" />
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_hint_email" />
+    <TextView
+        android:id="@+id/txt_email_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="option" />
+
+    <TextView
+        android:id="@+id/label_address"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:text="@string/contact_hint_address" />
+    <TextView
+        android:id="@+id/txt_address_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_hint_address_street" />
+    <TextView
+        android:id="@+id/txt_address_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_hint_address_number" />
+    <TextView
+        android:id="@+id/txt_address_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_hint_address_city" />
+    <TextView
+        android:id="@+id/txt_address_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_hint_address_zip" />
 
 </LinearLayout>

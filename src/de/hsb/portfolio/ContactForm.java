@@ -80,6 +80,12 @@ public class ContactForm extends Activity {
 			intent.putExtra(ContactFormResult.EXTRA_NAME, name);
 			intent.putExtra(ContactFormResult.EXTRA_PHONE, phone);
 			intent.putExtra(ContactFormResult.EXTRA_PHONE_OPTION, option_phone);
+			intent.putExtra(ContactFormResult.EXTRA_EMAIL, email);
+			intent.putExtra(ContactFormResult.EXTRA_EMAIL_OPTION, option_email);
+			intent.putExtra(ContactFormResult.EXTRA_ADDRESS_STREET, address_street);
+			intent.putExtra(ContactFormResult.EXTRA_ADDRESS_NUMBER, address_number);
+			intent.putExtra(ContactFormResult.EXTRA_ADDRESS_CITY, address_city);
+			intent.putExtra(ContactFormResult.EXTRA_ADDRESS_ZIP, address_zip);
 			startActivity(intent);
 		}
 		

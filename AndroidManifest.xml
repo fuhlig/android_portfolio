@@ -59,8 +59,12 @@
             android:label="@string/title_shared_pref" >
         </activity>
         <activity
-            android:name="de.hsb.portfolio.PreferenceActivity"
+            android:name="de.hsb.portfolio.Preference"
             android:label="@string/title_activity_preference" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.Settings"
+            android:label="@string/title_activity_settings" >
         </activity>
     </application>
 
