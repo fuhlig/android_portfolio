@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import de.hsb.portfolio.fragments.ExampleFragment;
 
 public class Overview extends ListActivity {
 
@@ -38,7 +39,8 @@ public class Overview extends ListActivity {
 		case 3:
 			// TODO
 			// Fragments Lifecycle
-			startActivity(new Intent(this, HelloWorld.class));
+			startActivity(new Intent(this, ExampleFragment.class));
+			break;
 		case 4:
 			// Shared Preferences
 			startActivity(new Intent(this, Settings.class));

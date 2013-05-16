@@ -27,6 +27,7 @@ public final class R {
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_padding=0x7f050002;
         public static final int activity_vertical_margin=0x7f050001;
+        public static final int slidemenu_offset=0x7f050003;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
@@ -34,7 +35,7 @@ public final class R {
     public static final class id {
         public static final int LinearLayout1=0x7f0a0000;
         public static final int RelativeLayout1=0x7f0a000e;
-        public static final int action_settings=0x7f0a0022;
+        public static final int action_settings=0x7f0a0025;
         public static final int btn_addContact=0x7f0a001e;
         public static final int btn_edit_settings=0x7f0a001d;
         public static final int btn_helloworld=0x7f0a0014;
@@ -42,18 +43,21 @@ public final class R {
         public static final int btn_overview=0x7f0a0017;
         public static final int btn_ui=0x7f0a0015;
         public static final int button1=0x7f0a0013;
+        public static final int detail=0x7f0a0022;
         public static final int detailsText=0x7f0a0018;
-        public static final int editText1=0x7f0a0020;
+        public static final int editText1=0x7f0a0023;
+        public static final int fragment_container=0x7f0a0020;
         public static final int label_address=0x7f0a0009;
         public static final int label_email=0x7f0a0006;
         public static final int label_job=0x7f0a001b;
         public static final int label_name=0x7f0a0001;
         public static final int label_phone=0x7f0a0003;
         public static final int label_username=0x7f0a0019;
-        public static final int list=0x7f0a001f;
-        public static final int spinner1=0x7f0a0021;
+        public static final int list=0x7f0a0021;
+        public static final int spinner1=0x7f0a0024;
         public static final int spinnerEmail=0x7f0a0011;
         public static final int spinnerPhone=0x7f0a0010;
+        public static final int textView1=0x7f0a001f;
         public static final int txt_address_city=0x7f0a000c;
         public static final int txt_address_number=0x7f0a000b;
         public static final int txt_address_street=0x7f0a000a;
@@ -72,19 +76,18 @@ public final class R {
         public static final int activity_contact_form_result=0x7f030000;
         public static final int activity_contactform=0x7f030001;
         public static final int activity_dashboard=0x7f030002;
-        public static final int activity_fragment=0x7f030003;
-        public static final int activity_helloworld=0x7f030004;
-        public static final int activity_life_cycle=0x7f030005;
-        public static final int activity_overview_list=0x7f030006;
-        public static final int activity_second_life_cycle=0x7f030007;
-        public static final int activity_settings=0x7f030008;
-        public static final int activity_shared_pref=0x7f030009;
-        public static final int contactform=0x7f03000a;
-        public static final int fragment_example=0x7f03000b;
-        public static final int fragment_rssitem_detail=0x7f03000c;
-        public static final int layout__detail_fragment=0x7f03000d;
-        public static final int news_articles=0x7f03000e;
-        public static final int scrollview=0x7f03000f;
+        public static final int activity_helloworld=0x7f030003;
+        public static final int activity_life_cycle=0x7f030004;
+        public static final int activity_overview_list=0x7f030005;
+        public static final int activity_second_life_cycle=0x7f030006;
+        public static final int activity_settings=0x7f030007;
+        public static final int activity_shared_pref=0x7f030008;
+        public static final int contactform=0x7f030009;
+        public static final int detail_fragment=0x7f03000a;
+        public static final int example_fragment=0x7f03000b;
+        public static final int list_fragment=0x7f03000c;
+        public static final int news_articles=0x7f03000d;
+        public static final int scrollview=0x7f03000e;
     }
     public static final class menu {
         public static final int contact_form_result=0x7f090000;
@@ -126,6 +129,7 @@ public final class R {
          */
         public static final int settings_user_data=0x7f06000e;
         public static final int settings_username=0x7f06000f;
+        public static final int title_activity_detail_fragment=0x7f06001f;
         public static final int title_activity_preference=0x7f06000a;
         public static final int title_activity_settings=0x7f06000b;
         public static final int title_contactform=0x7f060003;

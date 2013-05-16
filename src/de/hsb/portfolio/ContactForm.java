@@ -3,7 +3,9 @@ package de.hsb.portfolio;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
 import android.widget.ArrayAdapter;
@@ -36,6 +38,8 @@ public class ContactForm extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.contactform);
+		
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 
 		mInput_name = (EditText) findViewById(R.id.txt_name);
 		mInput_phone = (EditText) findViewById(R.id.txt_phone);
@@ -60,6 +64,16 @@ public class ContactForm extends Activity {
 		mInput_name.setOnFocusChangeListener(inputFocus);
 	}
 	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case android.R.id.home:
+			NavUtils.navigateUpFromSameTask(this);
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
 	public void addContact(View view) {
 		// get input data
 		name = mInput_name.getText().toString();

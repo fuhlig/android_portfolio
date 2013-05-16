@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.hsb.portfolio"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="0.1" >
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -15,7 +15,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="de.hsb.portfolio.Overview"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +29,11 @@
         </activity>
         <activity
             android:name="de.hsb.portfolio.ContactForm"
-            android:label="@string/title_contactform" >
+            android:label="@string/title_contactform"
+            android:launchMode="singleTop" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Overview" />
         </activity>
         <activity
             android:name="de.hsb.portfolio.LifeCycleActivity"
@@ -39,20 +44,8 @@
             android:label="@string/title_second_lifecycle" >
         </activity>
         <activity
-            android:name="de.hsb.portfolio.fragments.ArticleFragment"
-            android:label="@string/title_fragment" >
-        </activity>
-        <activity
-            android:name="de.hsb.portfolio.ArticleFragment"
-            android:label="@string/title_fragment" >
-        </activity>
-        <activity
             android:name="de.hsb.portfolio.ContactFormResult"
             android:label="@string/title_contactform_result" >
-        </activity>
-        <activity
-            android:name="de.hsb.portfolio.fragments.DetailFragment"
-            android:label="@string/title_detail_fragment" >
         </activity>
         <activity
             android:name="de.hsb.portfolio.SharedPrefActivity"
@@ -65,6 +58,10 @@
         <activity
             android:name="de.hsb.portfolio.Settings"
             android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="de.hsb.portfolio.fragments.ExampleFragment"
+            android:label="@string/title_activity_detail_fragment" >
         </activity>
     </application>
 
